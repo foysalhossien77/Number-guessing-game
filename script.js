@@ -111,7 +111,7 @@ GOOD LUCK 😀
 */
 
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
-console.log(secretNumber);
+// console.log(secretNumber);
 let score = 20;
 let highScore = 0;
 
@@ -162,7 +162,7 @@ document.querySelector('.check').addEventListener('click', function () {
 
 document.querySelector('.again').addEventListener('click', function(){
   secretNumber = Math.trunc(Math.random() * 20) + 1;
-  console.log(secretNumber);
+  // console.log(secretNumber);
   score = 20;
 
   document.querySelector('.message').textContent = 'Start guessing...';
